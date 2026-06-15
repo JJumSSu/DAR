@@ -1,6 +1,0 @@
-{"time":"2026-06-05T14:17:06.980489136-04:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
-{"time":"2026-06-05T14:17:07.290180103-04:00","level":"INFO","msg":"stream: created new stream","id":"fizbkrzp"}
-{"time":"2026-06-05T14:17:07.290231628-04:00","level":"INFO","msg":"handler: started","stream_id":"fizbkrzp"}
-{"time":"2026-06-05T14:17:07.290736572-04:00","level":"INFO","msg":"stream: started","id":"fizbkrzp"}
-{"time":"2026-06-05T14:17:07.290741747-04:00","level":"INFO","msg":"writer: started","stream_id":"fizbkrzp"}
-{"time":"2026-06-05T14:17:07.29074737-04:00","level":"INFO","msg":"sender: started","stream_id":"fizbkrzp"}

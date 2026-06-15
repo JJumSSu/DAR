@@ -5,7 +5,7 @@ parser.add_argument("--task", type=str, default='kbss', choices=["kbss", "apps",
 parser.add_argument("--cache_dir", type=str, help="Path to the cache directory")
 parser.add_argument("--loglevel", type=str, default='INFO', help="Logging level")
 parser.add_argument("--pred_output_dir", type=str, help="Output directory")
-parser.add_argument("--root-dir", type=str, default="/home/x-jpark38/DAR/data", help="Root directory containing evaluation parquet files")
+parser.add_argument("--root-dir", type=str, help="Root directory containing evaluation parquet files")
 
 parser.add_argument("--model", default="Qwen/Qwen2.5-1.5B-Instruct", help="Regression Model")
 parser.add_argument("--mode", default="rl", choices=['rl', 'sft', 'zero-shot'])
