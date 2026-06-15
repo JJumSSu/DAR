@@ -1,0 +1,132 @@
+{
+  "os": "Linux-4.18.0-553.81.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python": "CPython 3.10.19",
+  "startedAt": "2026-06-03T23:22:49.857453Z",
+  "args": [
+    "--node-ip-address=172.18.92.82",
+    "--node-manager-port=37583",
+    "--object-store-name=/tmp/ray/session_2026-06-03_19-21-31_119305_845270/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2026-06-03_19-21-31_119305_845270/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=65154",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=58202",
+    "--gcs-address=172.18.92.82:56351",
+    "--session-name=session_2026-06-03_19-21-31_119305_845270",
+    "--temp-dir=/tmp/ray",
+    "--webui=127.0.0.1:8265",
+    "--cluster-id=984c8d99b762c1e63cfea18e58831df0ca70d8a7c038ac57f9d06a2e",
+    "--startup-token=96",
+    "--worker-launch-time-ms=1780528896130",
+    "--node-id=693d495b63c877212bae1943859475051d74f9ca0e4d0161ecc44827",
+    "--runtime-env-hash=41665620"
+  ],
+  "program": "/home/x-jpark38/.conda/envs/py310/lib/python3.10/site-packages/ray/_private/workers/default_worker.py",
+  "git": {
+    "remote": "https://github.com/JJumSSu/DAR.git",
+    "commit": "4a775f2a72812ffcc9df9ab177f342dc0a590ca7"
+  },
+  "email": "jspark109@naver.com",
+  "root": "/home/x-jpark38/DAR/trainer/verl",
+  "host": "h018.anvil.rcac.purdue.edu",
+  "executable": "/home/x-jpark38/.conda/envs/py310/bin/python3",
+  "cpu_count": 96,
+  "cpu_count_logical": 96,
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "gpu_count": 4,
+  "disk": {
+    "/": {
+      "total": "540873736192",
+      "used": "18477973504"
+    }
+  },
+  "memory": {
+    "total": "1081747472384"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA H100 80GB HBM3",
+      "memoryTotal": "85520809984",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-2bd0b6bf-efa5-04b1-1fa3-2db17faf7cad"
+    },
+    {
+      "name": "NVIDIA H100 80GB HBM3",
+      "memoryTotal": "85520809984",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-ae9a8bda-f716-e6cb-5b73-0d73ce2d62c1"
+    },
+    {
+      "name": "NVIDIA H100 80GB HBM3",
+      "memoryTotal": "85520809984",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-58ddda2d-6e40-6628-9d48-cbaeaae16355"
+    },
+    {
+      "name": "NVIDIA H100 80GB HBM3",
+      "memoryTotal": "85520809984",
+      "cudaCores": 16896,
+      "architecture": "Hopper",
+      "uuid": "GPU-7b53d029-d5d7-d5d9-2301-22382419969d"
+    }
+  ],
+  "cudaVersion": "13.0",
+  "slurm": {
+    "cluster_name": "anvil",
+    "conf": "/var/spool/slurm/conf-cache/slurm.conf",
+    "cpus_on_node": "36",
+    "cpus_per_task": "36",
+    "gpus_on_node": "4",
+    "gpus_per_node": "1",
+    "gtids": "0",
+    "job_account": "nairr250217-ai",
+    "job_cpus_per_node": "36",
+    "job_end_time": "1780658481",
+    "job_gid": "7008993",
+    "job_gpus": "0,1,2,3",
+    "job_id": "17947670",
+    "job_name": "dar_kbss",
+    "job_nodelist": "h018",
+    "job_num_nodes": "1",
+    "job_partition": "ai",
+    "job_qos": "ai",
+    "job_start_time": "1780528881",
+    "job_uid": "7960852",
+    "job_user": "x-jpark38",
+    "jobid": "17947670",
+    "launch_node_ipaddr": "172.18.95.146",
+    "localid": "0",
+    "mpi_type": "none",
+    "nnodes": "1",
+    "nodeid": "0",
+    "nodelist": "h018",
+    "oom_kill_step": "0",
+    "prio_process": "0",
+    "procid": "0",
+    "pty_port": "41233",
+    "pty_win_col": "185",
+    "pty_win_row": "35",
+    "script_context": "prolog_task",
+    "srun_comm_host": "172.18.95.146",
+    "srun_comm_port": "47415",
+    "step_id": "4294967290",
+    "step_launcher_port": "47415",
+    "step_nodelist": "h005",
+    "step_num_nodes": "1",
+    "step_num_tasks": "1",
+    "step_tasks_per_node": "1",
+    "stepid": "4294967290",
+    "submit_dir": "/home/x-jpark38/DAR/scripts",
+    "submit_host": "h005.anvil.rcac.purdue.edu",
+    "task_pid": "845242",
+    "tasks_per_node": "1",
+    "topology_addr": "ibsw[23-32].ibsw35.h018",
+    "topology_addr_pattern": "switch.switch.node",
+    "tres_per_task": "cpu=36"
+  },
+  "writerId": "bxu7qk0o6exe2ejuno24rcgblbza14vn"
+}
